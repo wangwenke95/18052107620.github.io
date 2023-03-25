@@ -103,3 +103,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
+  repo: <https://github.com/18052107620/18052107620.github.io.git> #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: [gh-pages]
+  message: [Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})]
