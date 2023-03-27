@@ -3,26 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 装丶
 subtitle: ''
-description: ''
+description: "一个编程小知识的个人博客"
 keywords:
-author: John Doe
+author: 装丶
 language: zh-CN
-timezone: ''
-
-#search
-# search:
-#   path: search.xml
-#   field: post
-#   content: true
-#   template: ./search.xml
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://18052107620.github.io/project
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: 
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
