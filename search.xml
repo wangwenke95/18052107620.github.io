@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>在Linux系统下载与安装Nginx</title>
+      <link href="/2023/04/05/%E5%9C%A8Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85Nginx/"/>
+      <url>/2023/04/05/%E5%9C%A8Linux%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85Nginx/</url>
+      
+        <content type="html"><![CDATA[<h1 id="在Linux系统下载与安装Nginx"><a href="#在Linux系统下载与安装Nginx" class="headerlink" title="在Linux系统下载与安装Nginx"></a>在Linux系统下载与安装Nginx</h1><p>安装过程：</p><p>1、安装依赖</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install gcc pcre-devel zlib-devel openssl opensll-devel</span><br></pre></td></tr></table></figure><p>2、下载Nginx安装包</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum install wget</span><br><span class="line">wget https://nginx.org/download/nginx-1.16.1.tar.gz</span><br></pre></td></tr></table></figure><p>3、解压</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf nginx-1.16.1.tar.gz</span><br></pre></td></tr></table></figure><p>4、进入nginx解压目录</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd nginx-1.16.1</span><br></pre></td></tr></table></figure><p>5、创建nginx目录并检查配置环境变量</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p /usr/local/nginx</span><br><span class="line">./configure --prefix=/usr/local/nginx</span><br></pre></td></tr></table></figure><p>6、安装Nginx</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make &amp;&amp; make install</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nginx </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 在Linux系统下载与安装Nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>My New Post</title>
       <link href="/2023/03/30/My-New-Post/"/>
       <url>/2023/03/30/My-New-Post/</url>
