@@ -26,6 +26,6 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^4.7.0",
     "hexo-theme-dimension": "file:themes/hexo-theme-dimension",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-theme-landscape": "^1.0.0"
   }
 }
